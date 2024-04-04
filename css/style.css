@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Work Sans", sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 1140px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.header_banner {
+  background-image: url(../img/slider5.webp);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.header_banner .container .header_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+.header_banner .container .header_top .language .menu {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header_banner .container .header_top .language .menu > li > a {
+  text-transform: uppercase;
+}
+.header_banner .container .header_top .date {
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=style.css.map */

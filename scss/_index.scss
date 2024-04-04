@@ -1,0 +1,31 @@
+.header_banner {
+    background-image: url(../img/slider5.webp);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    .container {
+      .header_top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 0;
+        .language {
+          .menu {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            > li {
+              > a {
+                text-transform: uppercase;
+              }
+            }
+          }
+        }
+        .date {
+          display: flex;
+          gap: 10px;
+        }
+      }
+    }
+}  
